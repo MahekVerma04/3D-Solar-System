@@ -16,7 +16,7 @@ camera.position.set(0, 100, 200);
 scene.add(camera);
 
 const cubeTextureLoader = new THREE.CubeTextureLoader();
-const spaceTexture = cubeTextureLoader.setPath('images/skybox/').load([
+const spaceTexture = cubeTextureLoader.setPath('/images/skybox/').load([
     'space_rt.png',
     'space_lf.png',
     'space_up.png',
